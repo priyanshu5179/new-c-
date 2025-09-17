@@ -1,12 +1,12 @@
-#includre <iostream>
+#include <iostream>
 using namespace std;
 int main (){
-  int m=45;
-if ( n=>0);{
-   cout<< "positive"/n;
+  int n=45;
+if ( n>=0){
+   cout<< "positive" <<endl;
 }
 else{
-  cout<<"negative"/n;
+   cout<< "negative" <<endl;
 }
 return 0;
 }
