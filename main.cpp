@@ -2,15 +2,10 @@
 using namespace std;
 
 int main() {
-    int n;
-    cout << "Enter a number: ";
-    cin >> n;
-
-    if (n % 2 == 0) {
-        cout << n << " is even." << endl;
-    } else {
-        cout << n << " is odd." << endl;
-    }
-
+    int a = 5, b = 6;
+    //int sum = a + b;
+    int multiply = (a*b);
+    //cout << "The sum of two values is: " << sum << endl;
+    cout << "multiplication of two number:" << multiply << endl;
     return 0;
 }
